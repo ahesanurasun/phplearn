@@ -99,18 +99,6 @@ echo getAgeCategory($age);
 
 /* Electric bill calculation (For first 50 units – 3.50 tk/unit For next 100 units – 4.00 tk/unit For next 100 units – 5.20 tk/unit For units above 250 – 6.50 tk/unit) */
 
-$unit = 50;
 
-if($unit > 250) {
-    echo "Electricity rate is 20 Taka <br/>";
-} elseif ($unit >= 250) {
-    echo "Electricity rate is 15 Taka <br/>";
-} elseif ($unit >= 150) {
-    echo "Electricity rate is 10 Taka <br/>";
-} elseif ($unit >= 50) {
-    echo "Electricity rate is 5 Taka <br/>";
-} else {
-    echo "Rate not found";
-}
 
 ?>
